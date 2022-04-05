@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import docx2txt
 # extract text
-text = docx2txt.process("https://github.com/LinkHere/CEU-SOM-INVENTORY/blob/main/Skills_Lab_Supplies_Inventory.docx?raw=true")
+text = docx2txt.process("https://combinatronics.com/LinkHere/CEU-SOM-INVENTORY/main/Skills_Lab_Supplies_Inventory.docx")
 
 st.text(text)
 
